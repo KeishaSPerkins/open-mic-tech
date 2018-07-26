@@ -1,0 +1,32 @@
+<section class="post-heading">
+	<p data-category="{{ index .Params.categories 0 }}" class="category">
+	{{ range first 1 .Params.categories }}
+		<a href="{{`/categories/` | relURL }}{{. | urlize}} " class="post-category">{{ . }}</a>
+	{{ end }}
+	<ul class="tags">
+			{{ range .Params.tags }}
+				<li class="tag">
+					<a href="{{ `/tags/` | relURL }}{{ . | urlize }}">{{ . }}</a> 
+				</li>
+			{{ end}}
+		</ul>
+</p>
+	<h1 class="post-title">
+		{{ .Title }}
+	</h1>
+	<p class="post-info">
+		Posted on
+		<time>
+			{{ .Date.Format "January 2, 2006" }}
+		</time>
+		{{ if isset .Params "authors"}}
+			<span class="authors">by 
+				{{ range .Params.authors }}
+					<a class="author-name" href='{{ "/authors/" | relLangURL }}{{ . | urlize }}'>{{ . }}</a> 
+				{{ end }}
+			</span>
+		{{end}}<br>
+		
+		
+	</p>
+</section>

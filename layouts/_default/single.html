@@ -1,0 +1,18 @@
+
+
+{{ define "main-block" }}
+
+{{if ne .Params.featured_image "" }}
+	<div class="single-hero">
+		<img class="featured-image lazy" src='{{ index .Params "featured_image" | absURL }}'>
+	</div>
+{{end}}
+<main class="single">
+
+	{{ partial "post-heading.html" . }}
+	<article class="article-content">	
+		{{ .Content }}
+	</article>
+	{{ template "_internal/disqus.html" . }}
+</main>
+{{ end }}

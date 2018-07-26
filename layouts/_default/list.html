@@ -1,0 +1,17 @@
+{{define "main-block"}}
+
+<main class="list">
+	<div class="list-inner-wrapper">
+		{{ $paginator := .Paginate (where .Pages.ByDate "Type" "post") 8 }}
+
+		{{ range $paginator.Pages }}
+
+		{{ partial "card.html" . }}
+
+
+		{{ end }}
+	</div>
+	{{ template "_internal/pagination.html" . }}
+</main>
+
+{{ end }}

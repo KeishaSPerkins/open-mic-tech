@@ -1,0 +1,41 @@
+<article data-category="{{ index .Params.categories 0 }}"class="card">
+	{{ range first 1 .Params.categories }}
+		<a href="{{`/categories/` | relURL }}{{. | urlize}} " class="post-category">{{ . }}</a>
+	{{ end }}
+	{{if isset .Params "featured_image" }}
+	<a href="{{ .Permalink}}">
+		<div class="featured-image-wrapper">
+			<img class="featured-image lazy" src='{{ index .Params "featured_image" | absURL }}'>
+		</div>
+	</a>
+	{{ end }}
+	<div class="card-inner-wrapper">
+		
+		<h1 class="post-title">
+			<a href="{{ .Permalink }}">{{ .Title }}</a>
+		</h1>
+		<p class="post-info">
+			Posted on
+			<time>{{ .Date.Format "January 2, 2006" }}</time>
+			
+			{{ if isset .Params "authors"}}
+
+<span class="authors">by 
+			{{ range .Params.authors }}
+		<a class="author-name" href='{{ "/authors/" | relLangURL }}{{ . | urlize }}'>{{ . }}</a> 
+		{{ end }}
+		</span>
+			{{end}}
+			({{ .ReadingTime }}&nbsp;min)
+		</p>
+	<!-- <p class="post-summary">
+		{{ .Summary }}
+	</p> -->
+	<ul class="tags">
+		{{ range .Params.tags }}
+		<li class="tag"><a href="{{ `/tags/` | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+		{{ end }}
+
+	</ul>
+</div>
+</article> 

@@ -1,0 +1,26 @@
+<!-- <div class="picture"> -->
+  {{ if .Get "caption"}}
+  <!-- <figure> -->
+    {{ end }}
+    <picture>
+      <!-- Large screens -->
+      <source
+      media="(min-width: 535px)"
+      srcset="{{ .Site.BaseURL }}{{ .Get "src" }}.{{ .Get "type" }} 1x,
+      {{ .Get "src" }}@2x.{{ .Get "type" }} 2x">
+      <!-- Small screens -->
+      <source
+      media="(max-width: 534px)"
+      srcset="{{ .Site.BaseURL }}{{ .Get "src" }}-sm.{{ .Get "type" }} 1x,
+      {{ .Get "src" }}-sm@2x.{{ .Get "type" }} 2x">
+      <!-- Fallback -->
+      <img class="lazy"
+      src="{{ .Site.BaseURL }}{{ .Get "src" }}.{{ .Get "type" }}"
+      srcset="{{ .Site.BaseURL }}{{ .Get "src" }}@2x.{{ .Get "type" }} 2x"
+      alt="{{ .Get "alt" }}"{{ if .Get "caption"}} {{ end }}>
+    </picture>
+    {{ if .Get "caption"}}
+    <figcaption>{{ .Get "caption" }}</figcaption>
+  <!-- </figure> -->
+  {{ end }}
+<!-- </div> -->

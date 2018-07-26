@@ -1,0 +1,12 @@
+{{define "main-block"}}
+	<main class="main-terms">
+		<h1>All {{ .Data.Plural}}</h1>
+			<section class="terms-list">
+				{{range .Data.Pages}}
+						<a class="term-item" href="{{ .Permalink }}">
+							{{.Title}}
+						</a>
+				{{end}}
+			</section>
+	</main>
+{{ end }}
