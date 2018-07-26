@@ -1,0 +1,21 @@
+.pagination
+	display: flex
+	justify-content: space-around
+	padding: 0
+	list-style: none
+	font-family: $sans
+	width: 250px
+	margin: 0 auto 1.5rem
+	li
+		padding: .25rem .5rem
+		&.disabled
+			a
+				color: gray
+		&.active
+			background: $gold
+			a
+				color: white
+
+		a
+			text-decoration: none
+			font-weight: bold

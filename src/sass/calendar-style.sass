@@ -1,0 +1,38 @@
+.main-calendar
+	display: flex
+	justify-content: center
+	align-items: center
+	margin-bottom: 3rem
+	max-width: 740px
+	flex-direction: column
+	margin: auto
+	text-align: center
+	.calendar-iframe
+		width: 100%
+		min-height: 400px
+		height: 60vh
+		display: block
+// 	#calendarTitle
+// 		display: none !important
+// 		&:after
+// 			content: "Open Mic Tech Events"	
+// #calendarTabs1 > table > tbody > tr > td:nth-child(1) > div.ui-rtsr-unselected.ui-rtsr-first-tab.ui-rtsr-name
+// 		border-radius: 0 !important		
+.subscribe-button
+	// width: 20ch
+	background: $teal
+	border: none
+	color: white
+	padding: .4rem .5rem 
+	transition: background .3s ease
+	font-family: $sans
+	font-size: .8rem
+	align-self: flex-start
+	margin: 0 0 0 1rem
+	text-transform: uppercase
+	font-weight: bold
+	text-decoration: none
+	margin-bottom: 3rem
+	&:hover
+		background: darken($teal, 10%)
+		color: white

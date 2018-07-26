@@ -1,0 +1,58 @@
+.homepage
+	section 
+		min-height: 40vh	
+		display: flex
+		flex-flow: column
+		justify-content: center
+		align-items: center
+		&.about
+			padding: 20px
+			margin: auto
+			max-width: 740px
+			article
+				h1,h2
+					color: $teal
+				&.the-how
+					ol.how-steps
+						li h2, li p
+							text-align: left !important
+							margin-top: .1rem
+						li h2
+							font-size: 1rem
+							margin-bottom: 0
+		h1
+			font-size: 2rem
+		h1,h2,h3,h4,h5,h6
+			text-align: center			
+		article
+			padding: 0
+			h1
+				font-size: 1.5rem
+	.hero 
+		font-family: $sans
+		background-color: $teal
+		background-image: url('/img/iconPatternTeal.png')
+		background-size: 300px
+
+
+	.hero-title
+		color: white
+		font-size: 3rem
+		@media(min-width: 700px)
+			font-size: 5rem
+	.hero-body
+		text-align: center
+		width: 90%
+		margin: 20px auto
+		max-width: 70ch
+		span
+			background: white
+			font-weight: bold
+			padding: 5px 5px
+			text-align: center
+			box-decoration-break: clone
+			width: 75%
+			line-height: 2.5
+	.contact
+		background: $lightgray
+		text-align: center

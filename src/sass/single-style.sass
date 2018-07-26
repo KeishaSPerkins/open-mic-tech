@@ -1,0 +1,112 @@
+.single-hero
+		height: 40vh
+		overflow: hidden
+		img
+			object-fit: cover
+			width: 100%
+.single
+	width: 90%
+	margin: 2rem auto 3rem
+	max-width: 740px
+	
+	.post-heading
+		margin-bottom: 50px !important
+		h1
+				text-align: left !important
+				margin-top: 0
+		.post-info
+			color: #777
+			margin: .3rem 0
+			font-size: .8rem
+		a.author-name
+			text-decoration: none
+			&:not(:last-child):after
+				content: ","
+	.tags
+		list-style: none
+		padding: 0
+		margin-top: 0
+		font-size: .9rem
+		display: flex
+		flex-flow: row wrap
+		li
+			margin: 0 .3rem .7rem 0			
+			a
+				text-decoration: none	
+				background: #555
+				color: white
+				font-family: $sans
+				padding: .2rem .3rem	
+				text-transform: uppercase
+				font-weight: bold
+				font-size: .8rem
+				&:hover
+					background: #333
+
+	.category	
+		text-transform: uppercase
+		display: inline-block
+		margin-bottom: .75rem
+		a
+			color: white
+			text-decoration: none
+			padding: .2rem .3rem
+			background: #555
+			font-family: $sans
+			font-weight: bold
+			font-size: .8rem
+			&:hover
+				background: #333
+				
+				
+			
+	.article-content
+		line-height: 1.5
+		margin-bottom: 3rem
+	blockquote
+		color: $gold
+		border-left: 2px solid $teal
+		padding-left: 10px
+		font-size: .9rem
+		margin-left: 2rem
+		font-weight: bold
+	pre
+		// border-left: 2px solid $teal
+		// padding-left: .5rem
+		code
+			padding-left: 1rem
+	figure
+		background: #ddd
+		padding: 1rem
+		width: 90%
+		margin: auto
+		figure
+			background: none
+			padding: 0
+			
+		figcaption
+			font-size: .8rem
+			font-style: italic
+		img,picture
+			width: 100%
+			height: auto
+			margin: 0
+			padding: 0
+	iframe
+		width: 100%
+		max-width: 600px
+		margin: auto
+		display: block
+	.instagram-media
+		width: 95% !important
+		max-width: 400px
+		min-width: 100px !important
+		margin: auto !important
+		display: block
+		border-radius: 0 !important
+		border: 1rem solid #ddd !important
+		
+a.ViewProfileButton
+	background: $teal !important
+	transform: all .3s ease
+	border-radius: 0 !important

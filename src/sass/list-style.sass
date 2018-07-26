@@ -1,0 +1,27 @@
+.list
+	display: grid
+	grid-template-columns: minmax(1rem, 1fr) minmax(200px, 900px) minmax(1rem, 1fr)
+	background-color: #eee
+	// background-image: url('/img/iconPatternWhite.png')
+	background-size: 150px
+	background-opacity: 5
+.list-inner-wrapper
+	display: flex
+	max-width: 900px
+	margin: 3rem auto
+	flex-flow: row wrap
+	display: grid
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
+	grid-gap: 1rem
+	grid-column: 2
+	@supports(display: grid)
+		margin: 3rem 0
+		max-width: 100%
+		padding: 0
+	.card
+		margin-bottom: 2rem
+		margin: .5rem
+		@supports(display: grid)
+			margin: 0
+.pagination
+	grid-column: 2
