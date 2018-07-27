@@ -614,7 +614,7 @@ a.ViewProfileButton {
     color: white; }
 
 .main-page {
-  min-height: 70vh;
+  min-height: 60vh;
   max-width: 740px;
   margin: auto; }
   .main-page.phtext {
