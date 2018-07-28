@@ -618,4 +618,5 @@ a.ViewProfileButton {
   max-width: 740px;
   margin: auto; }
   .main-page.phtext {
-    padding-top: 5rem; }
+    padding-top: 5rem;
+    padding: 0 1.5rem; }

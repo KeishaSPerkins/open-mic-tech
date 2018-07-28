@@ -62,14 +62,9 @@ gulp.task("watch", function(){
 });
 
 gulp.task('build', function (callback) {
-  runSequence('clean:dist', 
-    ['sass', 'jsconcat', 'img:build'],
-    callback
-  )
+  runSequence('sass', 'jsconcat', 'img:build', callback);
 });
 
 gulp.task('default', function (callback) {
-  runSequence(['sass','jsconcat', 'watch'],
-    callback
-  )
+  runSequence('sass','jsconcat', 'watch', callback);
 });
