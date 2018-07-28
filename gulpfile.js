@@ -4,6 +4,7 @@ var gulp = require('gulp'),
 		pump = require('pump'),
 		responsive = require('gulp-responsive'),
     imagemin = require('gulp-imagemin'),
+    mozjpeg = require('imagemin-mozjpeg'),
 		runSequence = require('run-sequence');
 
 
