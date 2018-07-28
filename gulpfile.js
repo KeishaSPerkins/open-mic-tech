@@ -3,6 +3,7 @@ var gulp = require('gulp'),
 		uglify = require('gulp-uglify'),
 		pump = require('pump'),
 		responsive = require('gulp-responsive'),
+    imagemin = require('gulp-imagemin'),
 		runSequence = require('run-sequence');
 
 
