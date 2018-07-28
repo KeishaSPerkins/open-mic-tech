@@ -44,7 +44,7 @@ gulp.task('img', function(){
 );
 });
 
-gulp.task("img:build", ["img"], function() {
+gulp.task("imgbuild", ["img"], function() {
   gulp.src(["static/img/*.{jpg,png,gif,svg}"])
     .pipe(imagemin([
       imagemin.gifsicle(),
@@ -62,7 +62,7 @@ gulp.task("watch", function(){
 });
 
 gulp.task('build', function (callback) {
-  runSequence('sass', 'jsconcat', "img", callback);
+  runSequence('sass', 'jsconcat', "img", "imgbuild" ,callback);
 });
 
 gulp.task('default', function (callback) {
