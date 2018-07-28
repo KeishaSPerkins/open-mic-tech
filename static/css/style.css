@@ -146,13 +146,11 @@ iframe {
   display: flex;
   flex-flow: column;
   grid-column: 1/-1;
-  max-width: 100%; }
+  max-width: 100%;
+  font-family: "Montserrat", sans-serif !important; }
   @media (min-width: 750px) {
     .signup {
       grid-column: span 2; } }
-  .signup label {
-    margin: 1rem 0 .5rem;
-    font-size: .9rem; }
   .signup input {
     border: none;
     padding: .5rem .3rem;
@@ -171,6 +169,16 @@ iframe {
     transition: background .3s ease; }
     .signup .submit:hover {
       background: #086f69; }
+
+table#SIGNUP_BODY.quick_form_1_css {
+  margin: 0 !important; }
+  table#SIGNUP_BODY.quick_form_1_css label {
+    margin: 1rem 0 .5rem !important;
+    font-size: .9rem !important;
+    color: white !important;
+    text-align: left !important;
+    margin-bottom: .5rem !important;
+    display: block !important; }
 
 .homepage section {
   min-height: 40vh;
@@ -621,4 +629,4 @@ a.ViewProfileButton {
   margin: auto; }
   .main-page.phtext {
     padding-top: 5rem;
-    padding: 0 1.5rem; }
+    padding: 1.5rem; }

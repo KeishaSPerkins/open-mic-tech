@@ -170,7 +170,7 @@ padding:0px !important;
 
 
 
-    <table width="250" class="quick_form_1_css" border="0" cellspacing="0" cellpadding="0" align="center" name="SIGNUP_BODY" id="SIGNUP_BODY" style="background:none; color: rgb(68, 68, 68); width: 100%; margin: 0; padding: 0px; bottom: 2px;  font-size: 11px; font-family: Arial; text-align: center;">
+    <table width="250" class="quick_form_1_css" border="0" cellspacing="0" cellpadding="0" align="center" name="SIGNUP_BODY" id="SIGNUP_BODY" style="background:none; color: rgb(68, 68, 68); width: 100%; margin: 0; padding: 0px; bottom: 2px;  font-size: 11px;  text-align: center;">
 
       <tbody>
 
@@ -219,24 +219,26 @@ padding:0px !important;
                 <div style="display:none;background-color:#FFEBE8;padding:10px 10px; color:#d20000; font-size:11px; margin:10px;border:solid 1px #ffd9d3; margin-top:20px;" id="errorMsgDiv">&nbsp;&nbsp;Please correct the marked field(s) below.</div><!-- check to mark emailid field as type email, and other mandatory fields as type required -->
 
                 <div style="width: 100%; padding-bottom:15px; padding-top:15px;">
+                  <label for="CONTACT_EMAIL">Your Email</label>
 
-                  <input name="CONTACT_EMAIL" changetype="CONTACT_EMAIL" changeitem="SIGNUP_FORM_FIELD" type="email" required="true" id="CONTACT_EMAIL"  placeholder="Email">
+                  <input name="CONTACT_EMAIL" changetype="CONTACT_EMAIL" changeitem="SIGNUP_FORM_FIELD" type="email" required="true" id="CONTACT_EMAIL"  placeholder="example@email.com">
 
                   <span style="display:none" id="dt_CONTACT_EMAIL">1,true,6,Subscriber Email,2</span>
 
                 </div><!-- check to mark emailid field as type email, and other mandatory fields as type required -->
 
                 <div style="width: 100%; padding-bottom:15px; padding-top:15px;">
+                  <label for="FIRSTNAME">Your Name</label>
 
-                  <input name="FIRSTNAME" changetype="FIRSTNAME" changeitem="SIGNUP_FORM_FIELD" type="text" id="FIRSTNAME"  placeholder="Name">
+                  <input name="FIRSTNAME" changetype="FIRSTNAME" changeitem="SIGNUP_FORM_FIELD" type="text" id="FIRSTNAME"  placeholder="Jane Doe">
 
                   <span style="display:none" id="dt_FIRSTNAME">1,false,1,First Name,2</span>
 
                 </div><!-- check to mark emailid field as type email, and other mandatory fields as type required -->
 
-                <div style="padding-left:15px; padding-right:15px;padding-bottom:15px;padding-top:5px;"><!--  different elements for view and edit causing errors<input name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" type="button" style="text-align:center;-webkit-appearance:none;background-color:#a7a7a7; color:#fff; border:solid 1px #999; font-size:12px; padding:6px 10px; width:50%; cursor:pointer;font-family:Arial;" value="Submit">-->
+                <div style="padding-left:15px; padding-right:15px;padding-bottom:15px;padding-top:5px;"><!--  different elements for view and edit causing errors<input name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" type="button" style="text-align:center;-webkit-appearance:none;background-color:#a7a7a7; color:#fff; border:solid 1px #999; font-size:12px; padding:6px 10px; width:50%; cursor:pointer;" value="Submit">-->
 
-                  <button class="submit" name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" style=" color: rgb(255, 255, 255); cursor: pointer;  width: 50%; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 6px 10px; text-align: center;">Submit</button>
+                  <button class="submit" name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" style=" color: rgb(255, 255, 255); cursor: pointer;  width: 50%; font-size: 12px; padding: 6px 10px; text-align: center;">Submit</button>
 
                 </div><!-- Do not edit the below Zoho Campaigns hidden tags -->
 
