@@ -177,8 +177,9 @@ table#SIGNUP_BODY.quick_form_1_css {
     font-size: .9rem !important;
     color: white !important;
     text-align: left !important;
-    margin-bottom: .5rem !important;
     display: block !important; }
+  table#SIGNUP_BODY.quick_form_1_css .signup-input-wrapper {
+    padding: 0 !important; }
 
 .homepage section {
   min-height: 40vh;
