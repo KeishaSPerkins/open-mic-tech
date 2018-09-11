@@ -47,6 +47,6 @@ There are only a few steps you need to take to speak at Open Mic Tech.
 
 **Sign up.** There will be a list of speakers in the back of the room. Put your name on the list. No names will be put on the list in advance. You need to show up the night of the open mic to get your spot.
 
-**Optional: Give us your resources** Got slides you wanna use?  Just email them to speakers@openmictech.com. No slides will be accepted in advance.
+**Optional: Give us your resources.** Got slides you wanna use?  Just email them to speakers@openmictech.com. No slides will be accepted in advance.
 
 _**Note:** This is not a place to sell your products or services. Do not use OMT as an opportunity to give a pitch._
