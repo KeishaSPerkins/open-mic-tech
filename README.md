@@ -7,15 +7,9 @@ Open Mic Tech is a quarterly community-driven event designed to facilitate commu
 
 That's just a fancy way to say that Open Mic Tech is a place for us to come together and talk about the stuff we're doing. Just as the name suggests, it's an open mic night geared toward technology.
 
-What types of technology? All of them! However you use tech to do the things you do, we want to hear about it!
+What types of technology? All of them! However you use tech to do the things you do, we want to hear about it! 
 
-Are you a photographer who has a trick to speed up photo editing?
-
-Are you a developer who has fallen in love with a little-known programming language?
-
-Are you a writer who uses a new tool for organizing your literature?
-
-Want to put "public speaker" in your Twitter bio?
+Are you a photographer who has a trick to speed up photo editing? Are you a developer who has fallen in love with a little-known programming language? Are you a writer who uses a new tool for organizing your literature? Want to put "public speaker" in your Twitter bio?
 
 If you answered yes, consider coming out one night and giving a quick (5-15 minutes) talk about that thing you like.
 
@@ -47,15 +41,12 @@ We'll be in the Main Library at Goodwood's small meeting room.
 Baton Rouge LA, 70806**
 
 ## The How
-There are only a couple steps you need to take to speak at Open Mic Tech.
+There are only a few steps you need to take to speak at Open Mic Tech.
 
-### Show up
-Come to OMT. Just walk right in.
+**Show up.** Come to OMT. Just walk right in.
 
-### Sign up
-There will be a list of speakers in the back of the room. Put your name on the list. No names will be put on the list in advance. You need to show up the night of the open mic to get your spot.
+**Sign up.** There will be a list of speakers in the back of the room. Put your name on the list. No names will be put on the list in advance. You need to show up the night of the open mic to get your spot.
 
-### Optional: Give us your resources
-Got slides you wanna use?  Just email them to speakers@openmictech.com. No slides will be accepted in advance.
+**Optional: Give us your resources** Got slides you wanna use?  Just email them to speakers@openmictech.com. No slides will be accepted in advance.
 
 _**Note:** This is not a place to sell your products or services. Do not use OMT as an opportunity to give a pitch._
