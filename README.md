@@ -28,8 +28,6 @@ Open Mic Tech happens the second Tuesday of every quarter from 7:00pm to 9:00pm.
 
 **Upcoming Open Mic Tech Dates**
 
-- October 9, 2018
-- January 8, 2019
 - April 9, 2019
 - July 9, 2019
 
